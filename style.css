@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: url(gambar/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b203d83;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navigasi ul {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navigasi li a {
+    margin-right: 45px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    border-bottom: 3px solid transparent;
+}
+
+.navigasi li a:hover {
+    display: block;
+    border-bottom: 3px solid;   
+}
+
+.container-interface {
+    display: flex;
+    color: black;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 12%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-interface img {
+    margin-left: 100px;
+    width: 70%;
+}
+
+.container-interface .text-home {
+    font-weight: 600;
+    margin-right: 300px;
+}
+
+.container-interface .text-home h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.container-interface .text-home h3 {
+    font-size: 30px;
+}
+
+.container-buku {
+    margin-top: 14%;
+    min-width: 100vh;
+    border: 5px solid;
+    background: #0B203D;
+}
+
+.judul {
+    font-size: 30px;
+    text-align: center;
+}
+
+.kumpulan-buku {
+    display: flex;
+}
+
+.kumpulan-buku img {
+    margin-top: 10%;
+    width: 70%;
+    margin-left: 20px;
+}
+
+.kumpulan-buku .sastra h3 {
+    margin-left: 30%;
+}
+
+.kumpulan-buku .sejarah h3 {
+    margin-left: 30%;
+}
+
+.kumpulan-buku .agama h3 {
+    margin-left: 32%;
+}
+
+.kumpulan-buku .novel h3 {
+    margin-left: 33%;
+}
+
+.kumpulan-buku img:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+
+.container-profile {
+    margin-top: 12%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-profile h1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-profile .isi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-profile .isi img {
+    margin-bottom: -3%;
+}
+
+.container-profile .pengurus {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+.container-profile .pengurus img {
+    width: 10%;
+}
+
+.container-profile p {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.container-profile .isi img {
+    width: 30%;
+    margin-right: 7%;
+}
+
+.container-profile .isi p {
+    font-size: 30px;
+    font-weight: 450;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+
+.gallery {
+    min-height: 80vh;
+    min-width: 100vh;
+    margin-top: 10%;
+}
+
+.gallery .judul-gallery {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.gallery img {
+    width: 350px;
+    border: 2px solid;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+.contact-judul {
+    display: flex;
+    margin-top: 20%;
+    color: white;
+}
+
+.container-contact {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-contact .telephone {
+    font-size: 30px;
+}
+
+.container-contact .telephone a {
+    border-bottom: 2px solid;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.container-contact .telephone a:hover {
+    border-bottom: 3px solid;
+}
+
+.container-contact .email {
+    font-size: 30px;
+}
+
+.container-contact .email a {
+    border-bottom: 2px solid;
+    border: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.container-contact .email a:hover {
+    border-bottom: 3px solid;
+}
+
+footer {
+    background-color: #0B203D;
+}
+
+footer .logo-alamat {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1%;
+}
+
+footer .logo-alamat img {
+    width: 5%;
+}
+
+footer .text-alamat {
+    color: white;
+    margin-top: 1%;
+    margin-left: 1%;
+}
